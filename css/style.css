@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding: 20px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+}
+
+.preview {
+  border: 10px solid #dadada;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 50px 100px 250px 50px;
+  text-align: left;
+  text-transform: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+  .preview {
+    float: right;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    float: right;
+    width: 25%;
+  }
+}
+
+.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+}
+
+.london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+}
